@@ -1,0 +1,17 @@
+body{font-family:"Trebuchet MS"; font-size:13px; color:#333;}
+body .hilite{background:#dc0;}
+h1{font-weight:bold; font-size:26px;}
+h2{font-weight:bold; color:#f30; font-size:18px;}
+p{padding:10px 0;}
+table{margin-bottom:10px; border-top:1px solid #666; border-left:1px solid #666;}
+td{padding:5px; border-bottom:1px solid #666; border-right:1px solid #666; background:#eee;}
+thead td{font-weight:bold; font-size:1.02em;}
+#awesomeList{padding:5px; margin:5px; list-style:square;}
+#awesomeList li{margin-left:10px;}
+label{clear:left; float:left; display:block; margin:2px 4px 0 0; padding:3px; text-align:right; background:#444; color:white; width:90px; height:19px; line-height:19px;}
+input{margin-top:2px; text-align:left; float:left; background:white; border:1px solid #333; color:#333; padding:5px; width:200px;}
+.submit{clear:both; width:212px; margin-left:100px; cursor:pointer; background:#f90; color:white; font-weight:bold; text-align:right;}
+textarea{float:left; width:200px; border:1px solid #333; padding:5px; margin-top:2px;}
+.anchorClass{font-size:20px}
+.hilite{background:#f70;}
+.hiliteBig{font-weight:bold; font-size:20px;}
