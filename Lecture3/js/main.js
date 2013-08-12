@@ -1,5 +1,5 @@
 $(document).ready(function(){
     
-    $('').addClass('hilite');
+    $('#awesomeList').addClass('hilite');
 
 });
