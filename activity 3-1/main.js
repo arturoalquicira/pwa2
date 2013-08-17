@@ -12,7 +12,7 @@ $(document).ready(function(){
         console.log(secondTarget.eq(3).css({color: "red"}));
 
     var thirdTarget= $("ul:first").children("li").filter("li:eq(3)");
-        console.log(thirdTarget.width());
+        console.log("The width is: " + thirdTarget.width());
 
     var fourthTarget= $("#contentright").find("h3");
         console.log(fourthTarget.css({float: "right"}));
