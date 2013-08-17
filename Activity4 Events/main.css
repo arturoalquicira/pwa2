@@ -1,0 +1,26 @@
+#nav{
+    list-style:none;
+    margin:10px;
+    padding:10px;
+    background:#f70;
+    width:150px;
+}
+#nav a{
+    display:block;
+    background:white;
+    padding:6px 10px;
+    text-decoration:none;
+    color:#444;
+    margin-bottom:3px;
+}
+#nav a:last-child{
+    margin-bottom:none;
+}
+#nav a:hover{
+    background:#555;
+    color:white;
+}
+#nav a.active{
+    background:#555;
+    color:white;
+}
