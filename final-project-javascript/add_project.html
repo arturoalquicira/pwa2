@@ -8,31 +8,24 @@
 
 </head>
 <body>
-<div class="new-project">
-    <form action="">
-        <h2>New Task...</h2>
-        <div class="left-side">
-            <p>Task Name:</p>
+    <div class="new-project">
+        <form action="">
+            <h2>New Project...</h2>
+            <p>Project Name:</p>
             <input type="text" name="project-name" class="project-name" >
             <p>Description:</p>
             <textarea class="text-area" name="description" cols="20" rows="4"></textarea>
             <p>Due by:</p>
-        </div>
-
-        <div class="right-side">
             <p class="add-status">Status:</p>
             <p class="">Colleagues:</p>
             <input type="text" name="colleagues" class="colleagues"><br>
             <a class="add-colleague" href="#">Add+</a>
-        </div>
+            <input class="add-project" name="Submit" type="submit" value="Add Project">
+        </form>
+    </div>
 
-        <a class="add-project" href="#">Add Task</a>
-
-    </form>
-</div>
-
-<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="js/plugins/jsrender.min.js"></script>
-<script type="text/javascript" src="js/main.js" ></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/plugins/jsrender.min.js"></script>
+    <script type="text/javascript" src="js/main.js" ></script>
 </body>
 </html>
